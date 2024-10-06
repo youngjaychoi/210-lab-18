@@ -59,10 +59,6 @@ Node *createNode(float rating, string &comment) {
     return newNode;
 }
 
-void chooseList() {
-    
-}
-
 void addNodeToHead(Node *&head, float rating, string &comment) {
     Node *newNode = createNode(rating, comment);
     
